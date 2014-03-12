@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class IfElseStatement 
+{
+	
+	public static void main(String[] args)
+	{
+	
+		Scanner input = new Scanner (System.in);
+		
+		int thirsty;
+		
+		System.out.printf( "Hungry\n");
+		System.out.printf( "Get in line\n");
+		System.out.printf( "buy lunch\n");
+		
+		System.out.println( "Are you thirsty? 1 for yes 0 for no");
+		thirsty = input.nextInt();
+				
+			if (thirsty == 1)
+			{ 
+			System.out.println( "get a drink\n");
+			}
+			else
+			{
+			System.out.println( "don't get drink\n");
+			}
+		System.out.printf( "Eat lunch\n");
+		System.out.printf( "return tray'n");
+		System.out.printf( "leave\n");
+	
+	}
+
+}
